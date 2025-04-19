@@ -11,7 +11,7 @@ import { cn } from "@/lib/utils"
 
 // Project Data
 // TODO: Implement a databse with projects data
-
+// Right now will be manua
 const projectsData = [
   {
     id: 1,
