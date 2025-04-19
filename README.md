@@ -2,19 +2,25 @@ Karen Yao's Personal Website!
 
 A website built with Next.js, TypeScript, and Tailwind CSS.
 
+## Live Demo: [to be announced!]
+
 ## 🛠 Tech Stack
 
-- **Framework**: Next.js 14
-- **Styling**: Tailwind CSS + PostCSS
-- **UI Components**: Radix UI + CVA
+- **Framework**: Next.js 
+- **Styling**: Tailwind CSS 
+- **UI Components**: Radix UI 
 - **Icons**: Lucide React
 - **Animation**: Framer Motion
 - **Type Checking**: TypeScript 5
 
+## Prerequisites
+- Node.js >= 18
+- npm
 
-##To run locally:
+## Install dependencies
+npm install @radix-ui/react-slot @radix-ui/react-dialog class-variance-authority clsx tailwind-merge
+pip install -r requirements.txt
+npm install
 
-###To download dependencies:
-
-- Using npm:
-npm install @radix-ui/react-slot @radix-ui/react-dialog class-variance-authority clsx tailwind-merge# PersonalWebsite
+## Run development server
+npm run dev
