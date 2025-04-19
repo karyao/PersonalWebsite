@@ -51,12 +51,6 @@ export function CameraViewfinderFrame() {
           REC
         </div>
 
-        {/* Focus points */}
-        <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-          <div className="w-20 h-20 sm:w-24 sm:h-24 md:w-32 md:h-32 border border-purple-400/30 flex items-center justify-center">
-            <div className="w-1 h-1 bg-purple-400/70"></div>
-          </div>
-        </div>
       </div>
     </div>
   )
