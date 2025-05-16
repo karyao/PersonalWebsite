@@ -1,0 +1,24 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  background-color: #a45d97;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.links a {
+  margin-left: 16px;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+.links a:hover {
+  color: #ffd6e0;
+}
