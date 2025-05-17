@@ -14,9 +14,9 @@ export default function Home() {
   return (
     <main className={styles.container}>
       <section className={styles.left}>
-        <p className={styles.intro}>Nice to meet you, I'm Karen :)</p>
+        <p className={styles.intro}>Nice to meet you, I&#39;m Karen :)</p>
         <h1 className={styles.title}>
-          I'm <Typewriter phrases={phrases}/>
+          I&#39;m <Typewriter phrases={phrases}/>
         </h1>
         <p className={styles.description}>
             I am a computing science student at Simon Fraser University, passionate about building
@@ -29,7 +29,7 @@ export default function Home() {
       </section>
       <section className={styles.right}>
         <Image
-          src="/Purple_Blob_Placeholder.png"      
+          src="/PersonalWebsite/Purple_Blob_Placeholder.png"      
           alt="A purple blob for placeholder"
           width={450}
           height={450}

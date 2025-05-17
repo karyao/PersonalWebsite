@@ -9,7 +9,7 @@ export default function NavBar() {
     <nav className={styles.nav}>
       <a href="#home" className={styles.logoLink}>
         <img
-          src="/KY_Logo_Purple.png"
+          src="/PersonalWebsite/KY_Logo_Purple.png"
           alt="Karen Yao Logo"
           className={styles.logo}
         />
