@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
-import styles from './Hero.module.css';
+import styles from './styles/Hero.module.css';
 
 export default function Home() {
   const phrases = [
@@ -23,8 +23,8 @@ export default function Home() {
             impactful software and solving real-world problems. 
         </p>
         <div className={styles.buttons}>
-          <a href="#projects" className={styles.primary}>Explore Projects</a>
-          <a href="#contact" className={styles.secondary}>Contact Me →</a>
+          <a href="#projects" className={styles.primary}>View Projects 💻</a>
+          <a href="#addlater" className={styles.secondary}>View Resume 📄 </a>
         </div>
       </section>
       <section className={styles.right}>

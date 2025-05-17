@@ -95,3 +95,7 @@
     opacity: 0;
   }
 }
+
+.primary:hover, .secondary:hover {
+  background-color: #e2dcfd;
+}

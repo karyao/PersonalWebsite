@@ -1,0 +1,15 @@
+.aboutMeContainer { 
+    margin: 25px;
+}
+
+.aboutMeHeader { 
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+    font-size: 30px;
+    justify-content: center;
+    text-align: center;
+}
+
+.aboutMeContent { 
+    justify-content: center;
+    text-align: center;
+}
