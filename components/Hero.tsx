@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
-import styles from './styles/Hero.module.css';
+import styles from './Hero.module.css';
 
 export default function Home() {
   const phrases = [
@@ -29,7 +29,7 @@ export default function Home() {
       </section>
       <section className={styles.right}>
         <Image
-          src="/PersonalWebsite/Purple_Blob_Placeholder.png"      
+          src="/Purple_Blob_Placeholder.png"      
           alt="A purple blob for placeholder"
           width={450}
           height={450}

@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Menu, X } from 'lucide-react'
-import styles from './styles/NavBar.module.css'
+import styles from './NavBar.module.css'
 
 export default function NavBar() {
   const [open, setOpen] = useState(false)
@@ -9,7 +9,7 @@ export default function NavBar() {
     <nav className={styles.nav}>
       <a href="#home" className={styles.logoLink}>
         <img
-          src="/PersonalWebsite/KY_Logo_Purple.png"
+          src="/KY_Logo_Purple.png"
           alt="Karen Yao Logo"
           className={styles.logo}
         />
