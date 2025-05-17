@@ -4,7 +4,6 @@ import { useState } from 'react';
 import styles from './styles/Experience.module.css';
 
 export default function Experience() {
-  // our three tabs
   const tabs = ['All', 'Technical', 'Non-Technical'] as const;
   const [filter, setFilter] = useState<typeof tabs[number]>('All');
 
@@ -29,7 +28,7 @@ export default function Experience() {
         ))}
       </div>
 
-      {/* TODO: render your experience items here filtered by `filter` */}
+      {}
     </div>
   );
 }
