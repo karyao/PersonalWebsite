@@ -10,7 +10,7 @@ export default function About() {
         I am passionate about building impactful software and solving real-world problems. I love to learn about new technology and want to apply my skills to solving any issues I encounter, even if they are problems I create myself.
 
         <br/><br/>
-        I love getting involved in the community, and I am currently the Vice President of the SFU Computing Science Student Society (CSSS). I love being able to meet new people and help around whenever I can. Outside of my busy schedule, I love to play video games, especially Valorant and any indie horror games, and also go cafe hopping around Vancouver!
+        I love getting involved in the community, and I am currently the Vice President of the SFU Computing Science Student Society. I love being able to meet new people and help around whenever I can. Outside of my busy schedule, I love to play video games, especially Valorant and any indie horror games, and also go cafe hopping around Vancouver!
 
       </div>
     </div>

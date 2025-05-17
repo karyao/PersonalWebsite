@@ -6,3 +6,21 @@
     text-align: center;
     padding: 50px;
 }
+
+.socials { 
+    display: grid;
+    justify-content: space-between;
+}
+
+.socials h3 { 
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.socials a { 
+    padding: 0 10px;
+    margin-left: 15px;
+}
+
+.footer a::after { 
+    content: '↗';
+}
