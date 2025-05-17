@@ -6,7 +6,7 @@ import styles from './Hero.module.css';
 
 export default function Home() {
   const phrases = [
-    'a computing science student ',
+    'a computing science student',
     'a problem solver',
     'an avid coffee drinker',
   ];
@@ -16,7 +16,7 @@ export default function Home() {
       <section className={styles.left}>
         <p className={styles.intro}>Nice to meet you, I'm Karen :)</p>
         <h1 className={styles.title}>
-          I&#39;m <Typewriter phrases={phrases}/>
+          I'm <Typewriter phrases={phrases}/>
         </h1>
         <p className={styles.description}>
             I am a computing science student at Simon Fraser University, passionate about building
