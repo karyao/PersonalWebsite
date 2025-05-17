@@ -5,6 +5,7 @@ import Hero from '../components/Hero';
 import Footer from '../components/Footer';
 import styles from './page.module.css';
 import About from '../components/About';
+import Experience from '../components/Experience';
 
 export default function HomePage() {
   return (
@@ -12,6 +13,7 @@ export default function HomePage() {
       <NavBar />
       <Hero />
       <About />
+      <Experience />
       <Footer />
     </div>
   );
