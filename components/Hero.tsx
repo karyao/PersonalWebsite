@@ -52,7 +52,7 @@ function Typewriter({ phrases }: { phrases: string[] }) {
       setText(prev =>
         isDeleting ? full.substring(0, prev.length - 1) : full.substring(0, prev.length + 1)
       );
-      setSpeed(isDeleting ? 50 : 150);
+      setSpeed(isDeleting ? 50 : 80);
 
       if (!isDeleting && text === full) {
         // pause at end
