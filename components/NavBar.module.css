@@ -37,13 +37,15 @@
 } 
 
 .links a.contact { 
-  background-color: #e2dcfd;
+  background-color: #a594f9;
   text-decoration: none; 
+  color:white; 
   border-radius: 10px;
-  padding: 0.5rem 1rem;
+  padding: 10px 20px;
+  margin-left: 10px;
 }
 
 .links a.contact:hover { 
-  background-color: #a594f9;
-  color:#e2dcfd; 
+  background-color: #e2dcfd;
+  color: black;
 }

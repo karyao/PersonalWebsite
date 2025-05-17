@@ -29,10 +29,10 @@ export default function Home() {
       </section>
       <section className={styles.right}>
         <Image
-          src="/placeholder.png"      
-          alt="Illustration"
-          width={300}
-          height={300}
+          src="/Purple_Blob_Placeholder.png"      
+          alt="A purple blob for placeholder"
+          width={450}
+          height={450}
           className={styles.image}
         />
       </section>
