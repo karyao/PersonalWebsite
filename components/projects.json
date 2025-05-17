@@ -1,6 +1,14 @@
 [
     {
         "name": "cookie-grabber",
-        "title": "Cookie Grabber"
+        "title": "Cookie Grabber",
+        "description": "A multiplayer game where players compete to get the most cookies",
+        "image": "cookie-grabber.png",
+        "url": "",
+        "technologies": [
+            "JavaScript",
+            "HTML",
+            "CSS"
+        ]
     }
 ]

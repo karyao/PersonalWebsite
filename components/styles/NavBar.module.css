@@ -4,7 +4,6 @@
   left: 0;
   width: 100%;
   z-index: 999;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -50,15 +49,15 @@
 
 .links a.contact {
   background-color: #a594f9;
-  color: white;
   border-radius: 20px;
   padding: 10px;
   margin-left: 10px;
+  color: white;
 }
 
 .links a.contact:hover {
   background-color: #e2dcfd;
-  color: black;
+  color: #a594f9;
 }
 
 /* ——— MOBILE ——— */
