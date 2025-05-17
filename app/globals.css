@@ -5,7 +5,6 @@
   --accent-hover: #6d28d9;
 }
 
-/* force a white background & only vertical scroll */
 body {
   background: #ffffff;
   color: var(--foreground);
@@ -14,7 +13,6 @@ body {
   overflow-x: hidden;
 }
 
-/* Firefox */
 body {
   scrollbar-width: thin;
   scrollbar-color: var(--accent) #ffffff;
