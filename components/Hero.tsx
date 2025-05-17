@@ -6,7 +6,7 @@ import styles from './styles/Hero.module.css';
 
 export default function Home() {
   const phrases = [
-    'a computing science student',
+    'a computer science student',
     'a problem solver',
     'an avid coffee drinker',
   ];
@@ -68,8 +68,10 @@ function Typewriter({ phrases }: { phrases: string[] }) {
 
   return (
     <>
-      <span className={styles.animatedText}>{text}</span>
-      <span className={styles.cursor} />
+      <span className={styles.typewriter}>
+        <span className={styles.animatedText}>{text}</span>
+        <span className={styles.cursor} />
+      </span>
     </>
   );
 }

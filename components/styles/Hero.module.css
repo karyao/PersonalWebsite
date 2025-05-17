@@ -59,7 +59,7 @@
   border-radius: 20px;
   text-decoration: none;
   border: 2px solid #000;
-  color: #000;
+  background-color: white;
 }
 
 .right {
@@ -73,8 +73,14 @@
   object-fit: cover;
 }
 
+.typewriter {
+  display: inline-block;
+  white-space: nowrap;
+}
+
 .animatedText {
   color: #a594f9;
+  white-space: nowrap;
 }
 
 .cursor {
@@ -84,6 +90,7 @@
   background-color: currentColor;
   margin-left: 2px;
   animation: blink 1s step-end infinite;
+  white-space: nowrap;
 }
 
 @keyframes blink {
