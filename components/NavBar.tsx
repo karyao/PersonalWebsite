@@ -13,7 +13,7 @@ export default function NavBar() {
         <a href="#about">About</a>
         <a href="#experience">Experience</a>
         <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
+        <a className={styles.contact} href="#contact">Let's Chat!</a>
       </div>
     </nav>
   );

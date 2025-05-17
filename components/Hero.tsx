@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <main className={styles.container}>
       <section className={styles.left}>
-        <p className={styles.intro}>Hi, I'm Karen 👋</p>
+        <p className={styles.intro}>Nice to meet you, I'm Karen :)</p>
         <h1 className={styles.title}>
           I&#39;m <Typewriter phrases={phrases}/>
         </h1>
