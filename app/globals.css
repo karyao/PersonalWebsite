@@ -3,6 +3,7 @@
 :root {
   --accent: #8b5cf6;
   --accent-hover: #6d28d9;
+  --foreground: #000000;
 }
 
 body {
@@ -11,15 +12,15 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   overflow-y: scroll;
   overflow-x: hidden;
-}
-
-body {
+  padding: 0 1rem;        
+  margin: 0 auto;
+  max-width: 100%;
   scrollbar-width: thin;
   scrollbar-color: var(--accent) #ffffff;
 }
 
 ::-webkit-scrollbar {
-  width: 8px;       
+  width: 8px;
 }
 
 ::-webkit-scrollbar-track {
@@ -36,9 +37,21 @@ body {
   background-color: var(--accent-hover);
 }
 
-h2 { 
+h2 {
   font-family: monospace;
-  font-size: 1.875rem; 
+  font-size: clamp(1.5rem, 5vw, 1.875rem);
   text-align: center;
-  padding: 1.25rem;
+  /* fluid vertical padding */
+  padding: clamp(1rem, 5vw, 1.25rem) 0;
+  margin: 0;
+}
+
+@media (max-width: 640px) {
+  body {
+    padding: 0 0.75rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+    padding: 1rem 0;
+  }
 }
