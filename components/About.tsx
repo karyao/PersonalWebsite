@@ -1,7 +1,7 @@
 export default function About() {
   return ( 
     <div className="m6 text-black pl-20 pr-20">
-      <h2 className="font-mono text-3xl text-center p-5">
+      <h2>
         Driven by Passion, Caffeine, Stack Overflow, and a Rubber Duck 🐥 
       </h2>
       <div className="text-center"> 

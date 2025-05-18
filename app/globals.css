@@ -35,3 +35,10 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background-color: var(--accent-hover);
 }
+
+h2 { 
+  font-family: monospace;
+  font-size: 1.875rem; 
+  text-align: center;
+  padding: 1.25rem;
+}

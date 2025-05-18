@@ -6,6 +6,7 @@ import Footer from '../components/Footer';
 import styles from './page.module.css';
 import About from '../components/About';
 import Experience from '../components/Experience';
+import Projects from '../components/Projects';
 
 export default function HomePage() {
   return (
@@ -14,6 +15,7 @@ export default function HomePage() {
       <Hero />
       <About />
       <Experience />
+      <Projects />
       <Footer />
     </div>
   );

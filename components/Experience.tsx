@@ -9,7 +9,7 @@ export default function Experience() {
 
   return (
     <div className="m-6 text-black px-20">
-      <h2 className="font-mono text-3xl text-center p-5">
+      <h2>
         Experience
       </h2>
 
