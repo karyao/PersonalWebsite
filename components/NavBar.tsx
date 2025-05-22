@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { useState } from 'react'
 import { Menu, X } from 'lucide-react'
 import styles from './styles/NavBar.module.css'
@@ -7,7 +8,7 @@ export default function NavBar() {
 
   return (
     <nav className={styles.nav}>
-      <a href="#home" className={styles.logoLink}>
+      <a href="/" className={styles.logoLink}>
         <img
           src="/KY_Logo_Purple.png"
           alt="Karen Yao Logo"
@@ -24,17 +25,17 @@ export default function NavBar() {
       </button>
 
       <div className={`${styles.links} ${open ? styles.open : ''}`}>
-        <a href="#about" onClick={() => setOpen(false)}>
+        <a href="/about" onClick={() => setOpen(false)}>
           About
         </a>
-        <a href="#experience" onClick={() => setOpen(false)}>
+        <a href="/experience" onClick={() => setOpen(false)}>
           Experience
         </a>
-        <a href="#projects" onClick={() => setOpen(false)}>
+        <a href="/projects" onClick={() => setOpen(false)}>
           Projects
         </a>
         <a className={styles.contact}
-          href="#contact"
+          href="/contact"
           onClick={() => setOpen(false)}
         >
         Let’s Chat!

@@ -70,8 +70,8 @@
 }
 
 .image {
-  width: 80%;
-  max-width: 550px;
+  width: 100%;
+  max-width: 650px;
   height: auto;
   border-radius: 50%;
   object-fit: cover;
@@ -86,12 +86,10 @@
 
 .typewriter {
   display: inline-block;
-  white-space: nowrap;
 }
 
 .animatedText {
   color: #a594f9;
-  white-space: nowrap;
 }
 
 .cursor {
@@ -101,7 +99,6 @@
   background-color: currentColor;
   margin-left: 2px;
   animation: blink 1s step-end infinite;
-  white-space: nowrap;
 }
 
 @keyframes blink {
