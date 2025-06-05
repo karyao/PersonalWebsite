@@ -66,7 +66,7 @@ export default function Projects() {
               <h3 className={styles.title}>{project.title}</h3>
               <p className={styles.desc}>{project.description}</p>
               <p className={styles.techStack}><strong>Tech Stack:</strong> {project.techStack}</p>
-              <button className={styles.cta}>Link</button>
+              <button className={styles.cta}>Read More</button>
             </div>
           </div>
         ))}
