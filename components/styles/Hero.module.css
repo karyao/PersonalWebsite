@@ -6,16 +6,22 @@
   padding: 40px;
   min-height: 100vh;
   gap: 40px;
+  overflow-x: hidden;
 }
 
 @media (min-width: 768px) {
   .container {
     flex-direction: row;
+    /* keep items centered both vertically and horizontally */
+    align-items: center;
+    justify-content: center;
   }
 }
 
 .left {
+  flex: 1 1 400px;    /* start at 400px, won’t shrink below, can grow */
   max-width: 600px;
+  margin-right: 20px;
 }
 
 .intro {
@@ -62,11 +68,17 @@
   background-color: white;
 }
 
+.primary:hover,
+.secondary:hover {
+  background: #f5efff;
+}
+
 .right {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  flex: 1 1 300px;   /* can shrink to 300px, can grow beyond */
+  min-width: 300px;
 }
 
 .image {
@@ -86,6 +98,7 @@
 
 .typewriter {
   display: inline-block;
+  max-width: 100%;
 }
 
 .animatedText {
@@ -105,9 +118,4 @@
   50% {
     opacity: 0;
   }
-}
-
-.primary:hover,
-.secondary:hover {
-  background: #f5efff;
 }
