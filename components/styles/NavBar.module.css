@@ -13,7 +13,6 @@
   box-shadow: 0 2px 4px rgba(150, 150, 150, 0.3);
 }
 
-
 .logoLink {
   margin-left: 20px;
 }
@@ -24,7 +23,7 @@
 }
 
 .menuButton {
-  display: none;      
+  display: none;
   background: none;
   border: none;
   cursor: pointer;
@@ -36,27 +35,26 @@
   align-items: center;
 }
 
-.links a {
+.link {
   padding: 0 16px;
   font-size: 16px;
   text-decoration: none;
   color: black;
 }
 
-.links a:hover {
+.link:hover {
   color: #a594f9;
 }
 
-
-.links a.contact {
+.contact {
   background-color: #a594f9;
   border-radius: 10px;
-  padding: 10px;
+  padding: 10px 20px;
   margin-left: 10px;
   color: white;
 }
 
-.links a.contact:hover {
+.contact:hover {
   background-color: #e2dcfd;
   color: #a594f9;
 }
@@ -70,7 +68,7 @@
   .links {
     display: none;
     position: absolute;
-    top: 100%;       
+    top: 100%;
     left: 0;
     width: 100%;
     flex-direction: column;
@@ -82,7 +80,7 @@
     border-bottom: 1px solid #e2dcfd;
   }
 
-  .links a {
+  .link {
     padding: 12px 0;
     width: 100%;
     text-align: center;

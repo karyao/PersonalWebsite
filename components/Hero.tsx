@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import styles from './styles/Hero.module.css';
 
 export default function Home() {
@@ -16,20 +17,24 @@ export default function Home() {
       <section className={styles.left}>
         <p className={styles.intro}>Nice to meet you, I&#39;m Karen :)</p>
         <h1 className={styles.title}>
-          I&#39;m <Typewriter phrases={phrases}/>
+          I&#39;m <Typewriter phrases={phrases} />
         </h1>
         <p className={styles.description}>
-            I am a computing science student at Simon Fraser University, passionate about building
-            impactful software and solving real-world problems. 
+          I am a computing science student at Simon Fraser University, passionate about building
+          impactful software and solving real-world problems.
         </p>
         <div className={styles.buttons}>
-          <a href="#projects" className={styles.primary}>View Projects 💻</a>
-          <a href="#addlater" className={styles.secondary}>View Resume 📄 </a>
+          <Link href="#projects" className={styles.primary}>
+            View Projects 💻
+          </Link>
+          <Link href="#addlater" className={styles.secondary}>
+            View Resume 📄
+          </Link>
         </div>
       </section>
       <section className={styles.right}>
         <Image
-          src="/Purple_Blob.png"      
+          src="/Purple_Blob.png"
           alt="A purple blob for placeholder"
           width={550}
           height={550}
@@ -55,7 +60,6 @@ function Typewriter({ phrases }: { phrases: string[] }) {
       setSpeed(isDeleting ? 50 : 80);
 
       if (!isDeleting && text === full) {
-        // pause at end
         setTimeout(() => setIsDeleting(true), 1000);
       } else if (isDeleting && text === '') {
         setIsDeleting(false);
@@ -67,11 +71,9 @@ function Typewriter({ phrases }: { phrases: string[] }) {
   }, [text, isDeleting, loopIdx, phrases, speed]);
 
   return (
-    <>
-      <span className={styles.typewriter}>
-        <span className={styles.animatedText}>{text}</span>
-        <span className={styles.cursor} />
-      </span>
-    </>
+    <span className={styles.typewriter}>
+      <span className={styles.animatedText}>{text}</span>
+      <span className={styles.cursor} />
+    </span>
   );
 }
