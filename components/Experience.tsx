@@ -53,7 +53,7 @@ export default function Experience() {
   const displayed = filter === 'All' ? EXPERIENCE : EXPERIENCE.filter(e => e.type === filter);
 
   return (
-    <section className={styles.section}>
+    <section className={styles.section} id="experience">
       <div className={styles.container}>
         <h2 className={styles.title}>Experience</h2>
 

@@ -28,7 +28,7 @@ export default function NavBar() {
 
       <div className={`${styles.links} ${open ? styles.open : ''}`}>
         <Link
-          href="/about"
+          href="#about"
           className={styles.link}
           onClick={() => setOpen(false)}
         >

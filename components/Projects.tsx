@@ -14,12 +14,12 @@ const PROJECTS: Project[] = [
     title: 'HeyTed',
     description:
       'A physical therapeutic chatbot device to support mental health conversations, similar to the rubber duck debugging technique.',
-    imageUrl: 'project_images/HeyTed.png',
+    imageUrl: 'project_images/heyted.png',
     techStack: 'Python, Django, Gemini API',
   },
-  { 
+  {
     title: 'Wallet Tracker',
-    description: 
+    description:
       'Conducted a data-driven analysis to determine whether changes in a person\'s walking pattern can determine whether a wallet is lost or stolen.',
     imageUrl: 'project_images/wallet_dropped.png',
     techStack: 'Python, Numpy, Pandas, Matplotlib'
@@ -33,14 +33,14 @@ const PROJECTS: Project[] = [
   },
   {
     title: 'Pignance',
-    description: 
+    description:
       'A financial literacy game that teaches kids about money management through a reward system.',
-    imageUrl: 'project_images/Pignance.png',
+    imageUrl: 'project_images/pignance.png',
     techStack: 'Next.js, Tailwind CSS, MongoDB Atlas'
   },
   {
     title: "Next Tea Me",
-    description: 
+    description:
       'A social app to help users find tea buddies by matching them with others based on proximity at a cafe',
     imageUrl: 'project_images/NextTeaMe.jpg',
     techStack: 'Django, Sockets, Firebase',

@@ -2,7 +2,7 @@ import styles from './styles/About.module.css';
 
 export default function About() {
   return ( 
-    <div className={styles.about}>
+    <div className={styles.about} id="about">
       <h2>
         Driven by Passion, Caffeine, Stack Overflow, and a Rubber Duck 🐥 
       </h2>
