@@ -21,7 +21,7 @@ const PROJECTS: Project[] = [
     title: 'Wallet Tracker',
     description: 
       'Conducted a data-driven analysis to determine whether changes in a person\'s walking pattern can determine whether a wallet is lost or stolen.',
-    imageUrl: 'project_images/WalletTracker.png',
+    imageUrl: 'project_images/wallet_dropped.png',
     techStack: 'Python, Numpy, Pandas, Matplotlib'
   },
   {
@@ -49,7 +49,7 @@ const PROJECTS: Project[] = [
 
 export default function Projects() {
   return (
-    <section className={styles.projectsSection}>
+    <section className={styles.projectsSection} id="projects">
       <h2 className={styles.sectionTitle}>Projects</h2>
 
       <div className={styles.list}>

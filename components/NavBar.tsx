@@ -35,21 +35,21 @@ export default function NavBar() {
           About
         </Link>
         <Link
-          href="/experience"
+          href="#experience"
           className={styles.link}
           onClick={() => setOpen(false)}
         >
           Experience
         </Link>
         <Link
-          href="/projects"
+          href="#projects"
           className={styles.link}
           onClick={() => setOpen(false)}
         >
           Projects
         </Link>
         <Link
-          href="/contact"
+          href="#contact"
           className={`${styles.link} ${styles.contact}`}
           onClick={() => setOpen(false)}
         >
